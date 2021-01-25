@@ -1,9 +1,10 @@
 
 article {
-justify-content: center;
+text-align: center;
 color: black;
 }
 
 div {
-justify-content: center;
+text-align: center;
+color: darkred;
 }
