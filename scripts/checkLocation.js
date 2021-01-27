@@ -51,12 +51,12 @@ function checkLocation(){
         const d = (R * c)*1000; // Distance in meters
         // return d;
         console.log("The distance between the source and destination is "+d);
-        if(d<=35){
-            document.getElementById("loc").innerHTML = "You have reached the location.";
+        if(d<=30){
+            document.getElementById("loc").innerHTML = "You have reached the location/ within the 30 meters of the location area.";
             
         }
         else{
-            document.getElementById("loc").innerHTML = "You have not yet reached the location.";
+            document.getElementById("loc").innerHTML = "You have not yet reached the location/ you are not within he 30 meters of the location coordinates.";
         }
     });
     }
