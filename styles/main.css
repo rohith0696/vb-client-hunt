@@ -6,5 +6,16 @@ color: black;
 
 div {
 text-align: center;
-color: darkred;
+}
+
+#location{
+    font-size: large;
+    color: gold;
+}
+
+#result {
+color:#4285F4;
+font: bolder;
+font-family:'Times New Roman', Times, serif;
+font-size: large;
 }
