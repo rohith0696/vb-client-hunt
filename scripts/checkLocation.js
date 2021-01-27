@@ -1,20 +1,30 @@
 locationsArray = [
     {
-      Name: 'Colden Hall',
-      latitude:40.35112431021874, 
-      longitude:-94.8824199980626,
-      Notes: 'circle',
-      Attachments: '',
-      'Quest-Location': 'Colden Hall'
-    },
+    Name: 'Horizons west',
+    latitude:40.356160529115385, 
+    longitude:-94.88138729164642,
+    Notes: 'circle',
+    Attachments: '',
+    'Quest-Location': 'Horizons west'
+},
     {
-      Name: 'Bearcat Stadium',
-      latitude:40.35091480759317, 
-      longitude:-94.88591878401455,
-      Notes: 'circle',
-      Attachments: '',
-      'Quest-Location': 'Bearcat Stadium'
-    }];
+        Name: 'Colden Hall',
+        latitude:40.35112431021874, 
+        longitude:-94.8824199980626,
+        Notes: 'circle',
+        Attachments: '',
+        'Quest-Location': 'Colden Hall'
+      },  
+  {
+        Name: 'Bearcat Stadium',
+        latitude:40.35091480759317, 
+        longitude:-94.88591878401455,
+        Notes: 'circle',
+        Attachments: '',
+        'Quest-Location': 'Bearcat Stadium'
+      }
+];
+  
 
 function checkLocation(){
     
@@ -41,7 +51,7 @@ function checkLocation(){
         const d = (R * c)*1000; // Distance in meters
         // return d;
         console.log("The distance between the source and destination is "+d);
-        if(d<=10){
+        if(d<=35){
             document.getElementById("loc").innerHTML = "You have reached the location.";
             
         }
