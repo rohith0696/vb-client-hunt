@@ -1,5 +1,4 @@
 
-
 function showPosition() {
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
