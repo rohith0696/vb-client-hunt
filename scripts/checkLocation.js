@@ -56,7 +56,7 @@ function checkLocation(){
             
         }
         else{
-            document.getElementById("loc").innerHTML = "You have not yet reached the location/ you are not within he 30 meters of the location coordinates.";
+            document.getElementById("loc").innerHTML = "You have not yet reached the location/ you are not within the 30 meters of the location coordinates.";
         }
     });
     }
